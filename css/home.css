@@ -18,25 +18,12 @@ body{
 
 }
 #title{
-    margin-top: 4rem;
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 6vh;
-    line-height: 4px;
-    text-align: center;
-
-color: #FFFFFF;
-
-}
-#titlelogo{
-    float: left;
-    flex-direction: row;
-    position: absolute;
-    height: 6.183vh;
-    margin-left: 10vw;
-    margin-top: 5vh;
-
+    margin-top: 0.5rem;
+    display: block;
+    align-items: center;
+    height: 14vh;
+    margin-left: auto;
+    margin-right: auto;
 }
 #navdiv{
     position: absolute;
@@ -48,6 +35,7 @@ color: #FFFFFF;
     
 }
 nav{
+    position: absolute;
     background: #7ACDFF;
     top: 11rem;
     width: 100%;

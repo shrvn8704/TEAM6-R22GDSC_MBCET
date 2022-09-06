@@ -1,4 +1,48 @@
 body{
     font-family: 'Poppins', sans-serif;
+    background-image: url('/assets/background.jpg');
+    background-size: cover;
+    background-color: #000000;
 
+}
+#header{
+    position: absolute;
+    width: 100%;
+    height: 179px;
+    left: 0px;
+    top: 0px;
+    
+    background: #000000;
+    box-shadow: 0px 24px 25px -7px rgba(0, 0, 0, 0.2);
+
+}
+#title{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 8vw;
+    line-height: 4px;
+    text-align: center;
+
+color: #FFFFFF;
+
+}
+#titlelogo{
+    position: absolute;
+    width: auto;
+    height: auto;
+    margin-left: 15vw;
+    margin-right:auto;
+    margin-top: 8vh;
+
+}
+#navdiv{
+    position: absolute;
+    width:100vw;
+    height: 80px;
+    left: 0px;
+    top: 179px;
+
+    background: #7ACDFF;
+    box-shadow: 0px 24px 25px -7px rgba(0, 0, 0, 0.6);  
 }

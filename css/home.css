@@ -80,3 +80,8 @@ nav a {
 #gap{
     height: 70vh;
 }
+nav.sticky{
+    position: fixed;
+    top: 0;
+    left: 0;
+}

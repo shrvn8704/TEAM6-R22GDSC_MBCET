@@ -3,8 +3,6 @@ body{
     background-image: url('/assets/background.jpg');
     background-size: cover;
     background-color: #000000;
-    
-
 }
 
 nav{
@@ -44,8 +42,8 @@ nav a {
 
     
 }
-#gap{
-    height: 70vh;
+.gap{
+    height: 40vh;
 }
 nav.sticky{
     position: fixed;
@@ -57,4 +55,18 @@ nav.sticky{
     align-items: center;
     justify-content: space-between;
     transition: padding 1s;
+}
+#text{
+    margin-top: 31rem;
+    text-align: center;
+    font-size: 2.5rem;
+    color: #ffffff;
+}
+.planet{
+    transition: transform .2s;
+}
+.planet:hover{
+    -ms-transform: scale(1.5); 
+    -webkit-transform: scale(1.5); 
+    transform: scale(1.5); 
 }

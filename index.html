@@ -1,77 +1,91 @@
 <!DOCTYPE html>
 <html lang="en" style="overflow: auto ;">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=\, initial-scale=1.0">
-    <title>PLANETOUR|R22</title>
-    <link rel="stylesheet" href="css\home.css">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=\, initial-scale=1.0">
+        <title>PLANETOUR|R22</title>
+        <link rel="stylesheet" href="css\home.css">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
-</head>
-<body>
-    <div id="">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <a id="top"></a>
         <nav id="navbar">
             <img src="/assets/title and logo.png" id="titleandlogo">
             <ul id="menu">
-                <li><a href="" class="navlink" style="text-decoration:none">Portal booking</a></li>
+                <li><a href="#portal_booking" class="navlink" style="text-decoration:none">Portal booking</a></li>
                 <li><a href="" class="navlink" style="text-decoration:none">Seat Availability</a></li>
                 <li><a href="" class="navlink" style="text-decoration:none">Stations</a></li>
                 <li><a href="" class="navlink" style="text-decoration:none">User Settings</a></li>
             </ul>
-         </nav>
-    </div>  
-    <div id="gap">
-    </div>
-    <div class="content">
-        <div>
-            <table>
-                <tr>
-                    <td>
-                        <img src="/assets/Mercury.png">
-                    </td>
-                    <td>
-                        <img src="/assets/VENUS.png">
-                    </td>
-                    <td>
-                        <img src="/assets/Earth.png">
-                    </td>
-                    <td>
-                        <img src="/assets/mars.png">
-                    </td>
-                    <td>
-                        <img src="/assets/jupiter.png">
-                    </td>
-                    <td>
-                        <img src="/assets/Saturn.png">
-                    </td>
-                    <td>
-                        <img src="/assets/uranus.png">
-                    </td>
-                    <td>
-                        <img src="/assets/neptune.png">
-                    </td>
-                </tr>
-            </table>
+        </nav> 
+        <div id="text">
+            <p>
+                To those who love adventure, to those who love travelling and to those who are bored of taking cars and flights..
+                Here we are!
+                Planetour - Interplanetary travels, gives you an opportunity to get to the next level of travel, to explore the space and planets.
+            </p>
         </div>
-    </div>    
-    <script>
-        var navbar = document.getElementById("navbar");
-        var menu = document.getElementById("menu");
+        <div class="gap">
+        </div>
+        <a id="portal_booking"></a>
+        <div class="content">
+            <div>
+                <table>
+                    <tr>
+                        <td>
+                            <a href="#booking" ><img src="/assets/Mercury.png" class="planet"></a>
+                        </td>
+                        <td>
+                            <a href="#booking" ><img src="/assets/VENUS.png" class="planet"></a>
+                        </td>
+                        <td>
+                            <a href="#booking" ><img src="/assets/Earth.png" class="planet"></a>
+                        </td>
+                        <td>
+                            <a href="#booking" ><img src="/assets/mars.png" class="planet"></a>
+                        </td>
+                        <td>
+                            <a href="#booking" ><img src="/assets/jupiter.png" class="planet"></a>
+                        </td>
+                        <td>
+                            <a href="#booking" ><img src="/assets/Saturn.png" class="planet"></a>
+                        </td>
+                        <td>
+                            <a href="#booking" ><img src="/assets/uranus.png" class="planet"></a>
+                        </td>
+                        <td>
+                            <a href="#booking" ><img src="/assets/neptune.png" class="planet"></a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="gap">
+            </div>
+            <a id="booking"></a>
+            <div id="Booking">
 
-        window.onscroll = function(){
 
-            if(window.pageYOffset >= menu.offsetTop){
-                navbar.classList.add("sticky");
+            </div>
+        </div>    
+        <script>
+            var navbar = document.getElementById("navbar");
+            var menu = document.getElementById("menu");
+
+            window.onscroll = function(){
+
+                if(window.pageYOffset >= menu.offsetTop){
+                    navbar.classList.add("sticky");
+                }
+                else{
+                    navbar.classList.remove("sticky");
+
+                }
+
             }
-            else{
-                navbar.classList.remove("sticky");
-
-            }
-
-        }
-    </script>
- </body>
+        </script>
+    </body>
 </html>

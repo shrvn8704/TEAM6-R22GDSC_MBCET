@@ -3,6 +3,7 @@ body{
     background-image: url('/assets/background.jpg');
     background-size: cover;
     background-color: #000000;
+    
 
 }
 #header{
@@ -11,7 +12,7 @@ body{
     height: 11rem;
     left: 0px;
     top: 0px;
-    
+    flex-wrap: wrap;
     background: #000000;
     box-shadow: 0px 24px 25px -7px rgba(0, 0, 0, 0.2);
 
@@ -29,6 +30,7 @@ color: #FFFFFF;
 
 }
 #titlelogo{
+    float: left;
     flex-direction: row;
     position: absolute;
     height: 6.183vh;
@@ -48,5 +50,18 @@ color: #FFFFFF;
 }
 .nav{
     display: flex;
+    
+
+}
+.nav a { 
+    float: left;
+    color: #333333;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 2vh;
+
+}
+#gap{
+    height: 20vh;
 
 }

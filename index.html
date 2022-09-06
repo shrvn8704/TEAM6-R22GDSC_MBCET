@@ -67,8 +67,29 @@
             </div>
             <a id="booking"></a>
             <div id="Booking">
-
-
+                <p>Schedule Booking</p>
+                <form>
+                    <label for="from">FROM:</label>
+                    <input list="Planets">
+                    <datalist id="Planets">
+                        <option value="Mercury"></option>
+                        <option value="Venus"></option>
+                        <option value="Earth"></option>
+                        <option value="Mars"></option>
+                        <option value="Jupitetr"></option>
+                        <option value="Saturn"></option>
+                        <option value="Uranus"></option>
+                        <option value="Neptune"></option>
+                    </datalist>
+                    &nbsp;&nbsp;&nbsp;
+                    <label for="To">TO:</label>
+                    <input list="Planets">
+                    <br>
+                    <label for="Date">DATE:</label>
+                    <input type="date">
+                    <br>
+                    <input type="submit">
+                </form>
             </div>
         </div>    
         <script>
